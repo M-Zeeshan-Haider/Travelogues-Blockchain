@@ -1,0 +1,20 @@
+
+namespace travelogue
+
+participant User identified by User_ID {
+  
+  o String User_ID
+  o String User_FirstName
+  o String User_LastName
+  o String User_ProfilePic
+  o String User_City
+  o String User_Country  
+  o String User_DOB
+  o String User_Gender
+  o String User_Email
+  o String User_Password 
+}
+
+ transaction addUser {
+  o User user
+}
